@@ -26,8 +26,8 @@ jobs:
     steps:
       - run: |
           echo "Linting — I run at the same time as test, not after it."
-          sleep 14
-          exit 1
+          sleep 4
+        
 
   # Fan-in: waits for BOTH. Note the list syntax.
   deploy:
